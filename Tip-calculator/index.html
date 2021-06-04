@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip-Calculator.</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h2 id="result"></h2>
+            <h2 id="emptyField"></h2>
+        </header>
+        <form class="form" >
+            <div class="output-container">
+                <p for="" class="label" id="tipDisplay"></p><br>
+                <p for="" class="label" id="totalAmount"></p><br>
+                <p for="" class="label" id="perPerson"></p><br>
+                <p for="" class="label" id="totalPerPerson"></p>
+            </div>
+            <div class="output-container2">
+                <p for="" class="label" id="tipDisplay2"></p><br>
+                <p for="" class="label" id="totalAmount2"></p><br>
+                <p for="" class="label" id="perPerson2"></p><br>
+                <p for="" class="label" id="totalPerPerson2"></p>
+            </div>
+        </form>
+    </div>
+    <div class="input-container">
+
+        <div class="container-calculate">
+            <div class="calculate-price">
+                <label for="">Price $</label>
+                <input type="number" class="input-field" id="price" >
+            </div>
+            <div class="calculate-tip">
+                <label for="">Tip %</label>
+                <input type="number" class="input-field" id="tip">
+            </div>
+            <div class="calculate-people">
+                <label for="">Number of People</label>
+                <input type="number" class="input-field" id="people">
+            </div>
+
+            <div class="btn-div">
+                <button onclick="calculate();" class="btn1">Calculate</button>
+                <button class="btn2">Clear</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
